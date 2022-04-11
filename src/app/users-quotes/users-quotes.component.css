@@ -1,6 +1,32 @@
+.vote {  
+  width: 100px; 
+  float: left;
+}
+
+
+.stats{
+  display: inline-flex;
+}
+
+ul {
+  padding-left: 0; 
+}
+
+ul li{
+  list-style: none; 
+}
+
+button{
+  display: block;
+  margin-bottom:.5em;
+ 
+}
+
 blockquote{
+  font-family: 'Italianno', cursive;
+  font-size: 1.6em;
   padding-top: .5em;
-  font-size: 1.5em;
+  
 }
 
 .publishing{
