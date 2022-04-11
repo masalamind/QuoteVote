@@ -4,14 +4,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { ShareQuoteSectionComponent } from './share-quote-section/share-quote-section.component';
-import { UserQuoteSectionComponent } from './user-quote-section/user-quote-section.component';
+import { UsersQuotesComponent } from './users-quotes/users-quotes.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     ShareQuoteSectionComponent,
-    UserQuoteSectionComponent
+    UsersQuotesComponent,
+  
   ],
   imports: [
     BrowserModule
