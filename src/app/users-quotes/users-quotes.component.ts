@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+// import { Quote } from '../quote';
 
 @Component({
   selector: 'app-users-quotes',
@@ -9,13 +10,13 @@ import { Component, OnInit } from '@angular/core';
 export class UsersQuotesComponent implements OnInit {
 
   showQuoteDetailsState: boolean = false; 
-  
-  constructor() { }
 
+  constructor() { }
+  // quotes: Quote[] = [];
   quote: any = {
     quoteId:"1",
-    quoteTxt:"opportunity may knock once but temptation leans on the doorbell",
-    author:"Mr Inspirational", 
+    quoteTxt:"Life is what happens when you’re busy making other plans.",
+    author:"John Lenon", 
     likes: 0, 
     dislikes: 0, 
     publishDate: "10-04-22"
