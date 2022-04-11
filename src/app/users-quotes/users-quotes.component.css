@@ -1,57 +1,56 @@
 .quote{
-  background-color: pink;
+  /* background-color: pink; */
   width:60%;
+  padding-bottom: 2em;
+  border-bottom: 1.5px solid #CDBE78;
+
 }
+
 .vote {  
   width: 20%; 
-  background-color: dodgerblue;
-  
-  /* float: right; */
-}
-
-
-.stats{
-  display: flex;
-}
-.user-quotes{
-  display: flex;
-}
-
-ul.quoteUl{
-  
-  width: 250px;
-}
-
-ul li{
-  list-style: none; 
+  /* background-color: dodgerblue; */
+  padding-top: 3em;
   
 }
+
+.stats{ display: flex; }
+
+.user-quotes{ display: flex; }
+
+ul.quoteUl{ width: 250px; }
+
+ul li{ list-style: none; }
 
 button{
+
   display: block;
-  margin-bottom:.5em;
- 
+  margin-bottom:.5em; 
 }
 
 blockquote{
+
   font-family: 'Italianno', cursive;
-  font-size: 1.6em;
+  
+  font-size: 2em;
   padding-top: .5em;
   
 }
 
 .publishing{
   width: 400px;
+
 }
 
 .quoteStat{
   width: 250px;
   padding-bottom: 2px; 
   padding-top: 2px;
+
 }
 
 .feedback-btn{
-  width: 80px;
+  /* width: 80px; */
+
 }
 
 .moreDetailsBtn{
@@ -59,5 +58,7 @@ blockquote{
   margin-top: -.1em;
   border: none; 
   background-color: white; 
+  color: #383838;
+
 }
 

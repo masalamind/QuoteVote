@@ -1,9 +1,18 @@
 .share-quote-input{
-  height: 30vh;
+  height: 70vh;
   margin: 7em auto 0 auto; 
 }
 
+#sendQuoteBtn{
+  background-color:#066163;
+  color: white; 
+}
 #quoteInput{
   height: 5em;
   width: 40vw;
+}
+
+
+h2{
+  color: #066163;
 }

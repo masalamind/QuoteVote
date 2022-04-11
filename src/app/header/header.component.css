@@ -6,3 +6,19 @@ header{
   padding: 10px; 
 
 }
+
+
+input{
+  padding: 6px; 
+  border: 2px solid #383838;
+  border-radius: 4px;
+  margin-right: .5em;
+  width: 500px;
+}
+
+.shareQuoteBtn{
+  background-color: #066163;
+  color: white; 
+  border: solid 2px #383838;
+  padding: 7px;
+}

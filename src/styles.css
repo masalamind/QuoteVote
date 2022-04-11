@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@300;400;500;700&family=Italianno&display=swap');
 
-
 /* You can add global styles to this file, and also import other style files */
+
+body{
+ font-family: 'Anek Tamil', sans-serif;
+}
+
+
 .main{
   width: 70vw;
   margin: 0 auto; 
@@ -9,9 +14,18 @@
 }
 
 button{
-  padding: 4px;
+  padding: 6px;
+  font-weight: bold; 
+  color: #383838;
+  border-radius: 4px; 
 }
-
+button:hover{
+  background-color: #066163;
+  color: white;
+  border: none; 
+  padding: 8px;
+  border-radius: 4px;
+}
 button:hover, label:hover { cursor: pointer; }
 
 .filters{
