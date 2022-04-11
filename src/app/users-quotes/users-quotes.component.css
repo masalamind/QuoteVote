@@ -17,7 +17,13 @@
 
 .user-quotes{ display: flex; }
 
-ul.quoteUl{ width: 250px; }
+ul.quoteUl{ 
+  width: 250px;
+ 
+
+}
+
+ul{ margin-left: 0 !important; }
 
 ul li{ list-style: none; }
 
@@ -30,9 +36,11 @@ button{
 blockquote{
 
   font-family: 'Italianno', cursive;
-  
-  font-size: 2em;
+  color: #383838;  
+  font-size: 2.5em;
   padding-top: .5em;
+  padding-left: 0; 
+  margin-left: 0; 
   
 }
 
@@ -54,11 +62,13 @@ blockquote{
 }
 
 .moreDetailsBtn{
-  margin-left:2.5em;
+  /* margin-left:2.5em; */
   margin-top: -.1em;
   border: none; 
   background-color: white; 
-  color: #383838;
+  color: #789395;
+  margin-left: 0; 
+  padding-left: 0; 
 
 }
 

@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ShareQuoteSectionComponent implements OnInit {
 
+  shareQuoteState: boolean = false;
+  
   constructor() { }
 
   ngOnInit(): void {

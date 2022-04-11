@@ -9,7 +9,13 @@
   </div>
 
   <div class="submit-quote">
-      <button class="shareQuoteBtn"><i class="fa-solid fa-quote-left"></i> Share New Quote</button>
+      <button class="shareQuoteBtn" (click)="shareQuote()"><i class="fa-solid fa-quote-left"></i> Share New Quote</button>
   </div>
 
 </header>
+
+<!--Change this letter to show on the app.component.html
+    Temporary hack as your understanding grows 
+-->
+
+<app-share-quote-section *ngIf="shareQuoteState"></app-share-quote-section>
