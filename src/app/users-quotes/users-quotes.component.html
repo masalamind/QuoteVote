@@ -4,8 +4,9 @@
   <div class="quote">
       <ul>
         <li><blockquote> {{quote.quoteTxt}}</blockquote></li>
-        <li><button class="moreDetailsBtn">{{quote.author}} <i class="fa-solid fa-caret-down"></i></button></li>
-        <li>
+        <li class="author">~{{quote.author}}</li>
+        <li><button class="moreDetailsBtn" (click)="showQuoteDetails()"> <i class="fa-2x fa-solid fa-caret-down"></i>  More</button></li>
+        <li *ngIf="showQuoteDetailsState">
           <div class="stats">         
             <div class="publishing">
               <ul class="quoteUl">
@@ -17,8 +18,8 @@
                       
             <div class="votes">
               <ul class="quoteUl">
-                <li class="quoteStat">Likes: <span class="votelikes">{{quote.likes}}</span></li>
-                <li class="quoteStat">Dislikes: <span class="voteDislikes">{{quote.dislikes}}</span></li>
+                <li class="quoteStat"> <span class="voteLikes">{{quote.likes}} likes</span></li>
+                <li class="quoteStat"> <span class="voteDislikes">{{quote.dislikes}} dislikes</span></li>
               </ul>              
             </div>
     

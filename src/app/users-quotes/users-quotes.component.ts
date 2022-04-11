@@ -5,8 +5,11 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './users-quotes.component.html',
   styleUrls: ['./users-quotes.component.css']
 })
+
 export class UsersQuotesComponent implements OnInit {
 
+  showQuoteDetailsState: boolean = false; 
+  
   constructor() { }
 
   quote: any = {
@@ -18,6 +21,11 @@ export class UsersQuotesComponent implements OnInit {
     publishDate: "10-04-22"
   }
   
+  showQuoteDetails=()=>{
+    this.showQuoteDetailsState = !this.showQuoteDetailsState;
+
+  }
+
   ngOnInit(): void {
   }
 

@@ -28,9 +28,16 @@ section{
 
 .user-quotes{ display: flex; }
 
+ul.quoteUl li{ 
+  display: inline; 
+  margin-right: 2em;
+  padding-left: 0; 
+}
+
 ul.quoteUl{ 
   width: 250px;
- 
+  padding-left: 0; 
+  text-align: left;
 
 }
 
@@ -52,6 +59,7 @@ blockquote{
   padding-top: .5em;
   padding-left: 0; 
   margin-left: 0; 
+  margin-bottom: .2em; 
   
 }
 
@@ -77,9 +85,22 @@ blockquote{
   margin-top: -.1em;
   border: none; 
   background-color: white; 
-  color: #789395;
+  color: #383838;
   margin-left: 0; 
   padding-left: 0; 
+  text-align: left;
 
 }
 
+.voteLikes{
+  color: #066163;
+
+}
+.voteDislikes{
+  color: #383838; 
+
+}
+
+.author{
+  color: #7E7474;
+}
