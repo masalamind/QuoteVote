@@ -1,19 +1,30 @@
+.quote{
+  background-color: pink;
+  width:60%;
+}
 .vote {  
-  width: 100px; 
-  float: left;
+  width: 20%; 
+  background-color: dodgerblue;
+  
+  /* float: right; */
 }
 
 
 .stats{
-  display: inline-flex;
+  display: flex;
+}
+.user-quotes{
+  display: flex;
 }
 
-ul {
-  padding-left: 0; 
+ul.quoteUl{
+  
+  width: 250px;
 }
 
 ul li{
   list-style: none; 
+  
 }
 
 button{
@@ -34,6 +45,7 @@ blockquote{
 }
 
 .quoteStat{
+  width: 250px;
   padding-bottom: 2px; 
   padding-top: 2px;
 }
@@ -43,11 +55,9 @@ blockquote{
 }
 
 .moreDetailsBtn{
-  margin-top: -.5em;
+  margin-left:2.5em;
+  margin-top: -.1em;
   border: none; 
   background-color: white; 
 }
 
-.stats{
-  margin-left: 100px; 
-}

@@ -1,10 +1,5 @@
 <section class="user-quotes">
-
-  <div class="vote">
-      <button class="feedback-btn like-btn">Inspiring</button>
-      <button class="feedback-btn dislike-btn">Terrible</button>
-  </div>
-
+ 
   <div class="quote">
       <ul>
         <li><blockquote> {{quote.quoteTxt}}</blockquote></li>
@@ -12,7 +7,7 @@
         <li>
           <div class="stats">         
             <div class="publishing">
-              <ul>
+              <ul class="quoteUl">
                 <li class="quoteStat"><span>-{{quote.author}} </span></li>
                 <li class="quoteStat">Shared: <span class="published">{{quote.publishDate}}</span></li>
               </ul> 
@@ -20,7 +15,7 @@
             </div>              
                       
             <div class="votes">
-              <ul>
+              <ul class="quoteUl">
                 <li class="quoteStat">Likes: <span class="votelikes">{{quote.likes}}</span></li>
                 <li class="quoteStat">Dislikes: <span class="voteDislikes">{{quote.dislikes}}</span></li>
               </ul>              
@@ -33,5 +28,10 @@
                   
                   
   </div> <!-- quote -->
+
+  <div class="vote">
+    <button class="feedback-btn like-btn"> <i class="fa-solid fa-thumbs-up"></i> Inspiring</button>
+    <button class="feedback-btn dislike-btn"><i class="fa-solid fa-thumbs-down"></i> Terrible</button>
+  </div>
 
 </section>
