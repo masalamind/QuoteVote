@@ -1,0 +1,9 @@
+.share-quote-input{
+  height: 30vh;
+  margin: 7em auto 0 auto; 
+}
+
+#quoteInput{
+  height: 5em;
+  width: 40vw;
+}
