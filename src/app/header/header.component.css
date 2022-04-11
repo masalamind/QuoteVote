@@ -10,15 +10,20 @@ header{
 
 input{
   padding: 6px; 
-  border: 2px solid #383838;
+  border: 2px solid #525E75;
   border-radius: 4px;
   margin-right: .5em;
   width: 500px;
 }
 
+.shareQuoteBtn:hover{ 
+  background-color: #CDBE78;
+  color: #383838;
+}
+
 .shareQuoteBtn{
   background-color: #066163;
   color: white; 
-  border: solid 2px #383838;
+  border: 2px solid #525E75;
   padding: 7px;
 }

@@ -1,15 +1,33 @@
+input{
+  border: 2px solid #525E75;
+  border-radius: 4px; 
+}
+
 .share-quote-input{
-  height: 70vh;
+  height: 60vh;
   margin: 7em auto 0 auto; 
+}
+
+#sendQuoteBtn:hover{ 
+  background-color: #CDBE78;
+  color: #383838;
+  border: solid 2px #383838;
+
 }
 
 #sendQuoteBtn{
   background-color:#066163;
   color: white; 
+  width: 150px;
 }
 #quoteInput{
   height: 5em;
   width: 40vw;
+}
+
+#quoteAuthorInput{
+  padding: 5px;
+  width: 250px; 
 }
 
 
