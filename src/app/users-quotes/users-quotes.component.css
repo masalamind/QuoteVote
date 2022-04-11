@@ -2,14 +2,25 @@
   /* background-color: pink; */
   width:60%;
   padding-bottom: 2em;
-  border-bottom: 1.5px solid #CDBE78;
+  
+}
 
+section{
+  margin: 0 auto;
+  text-align: left;
+}
+
+.divider{
+  width: 60%;
+  clear:both;
+  margin: 0 auto;
+  border-bottom: 1px solid #CDBE78;
 }
 
 .vote {  
   width: 20%; 
   /* background-color: dodgerblue; */
-  padding-top: 3em;
+  padding-top: 4.5em;
   
 }
 
